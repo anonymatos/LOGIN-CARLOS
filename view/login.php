@@ -11,19 +11,20 @@
 </head>
 <body>
   <div class="container">
+    <div class="fondo">
     <h1>Iniciar Sesión</h1>
+    <div class="loginBox" style=" text-align: center; margin-bottom: 20px;"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+
     <form id="loginForm" action="login.php" method="POST">
-       <select class="select" aria-label="Default select example"  id="rol" >
-                        <option selected>Selecione su rol</option>
-                        <option value="0">Usuario </option>
-                        <option value="1">Administrador</option>
-                        </select>
+     
+                     
       <input type="text" id="username" name="username" placeholder="Usuario" required>
       <input type="password" id="password" name="password" placeholder="Contraseña" required>
       <button type="submit">Iniciar Sesión</button>
     </form>
-    <a href="recuperacion_de_contraseña.html">¿Olvidaste tu contraseña?</a>
-    <a href="registro.html">Crear una cuenta</a>
+    <a href="recuperacion_de_contraseña.php">¿Olvidaste tu contraseña?</a>
+    <a href="registro.php">Crear una cuenta</a>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

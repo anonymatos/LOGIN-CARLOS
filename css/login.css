@@ -1,11 +1,11 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #e4f6f8;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.container {
+.fondo{
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -31,6 +31,10 @@ input[type="password"] {
   margin-bottom: 10px;
   padding: 10px;
   width: 100%;
+}
+.loginBox {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .select select{
@@ -70,4 +74,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.nav {
+  padding: 3%;
 }
