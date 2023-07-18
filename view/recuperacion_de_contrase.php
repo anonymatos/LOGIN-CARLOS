@@ -5,7 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Recuperar contraseña</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <?php require_once('librerias.php')?>
+    <link rel="stylesheet" href="../css/recuperacionContrase.css">
+   
 </head>
 <body>
     <div class="container">

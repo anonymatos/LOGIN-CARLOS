@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Iniciar sesion- Cliente </title>
-    <?php require_once('librerias.php')?>
+    <link rel="stylesheet" href="../css/login.css">
+  
 </head>
 <body>
     <title>Sistema de Inicio de Sesión</title>
@@ -12,7 +13,7 @@
 <body>
   <div class="container">
     <div class="fondo">
-    <h1>Iniciar Sesión</h1>
+        <h1>Iniciar Sesión</h1>
     <div class="loginBox" style=" text-align: center; margin-bottom: 20px;"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
 
     <form id="loginForm" action="login.php" method="POST">
@@ -22,7 +23,7 @@
       <input type="password" id="password" name="password" placeholder="Contraseña" required>
       <button type="submit">Iniciar Sesión</button>
     </form>
-    <a href="recuperacion_de_contraseña.php">¿Olvidaste tu contraseña?</a>
+    <a href="recuperacion_de_contrase.php">¿Olvidaste tu contraseña?</a>
     <a href="registro.php">Crear una cuenta</a>
     </div>
   </div>
