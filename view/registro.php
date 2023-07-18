@@ -5,8 +5,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Registro</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='registrologin.css'>
-        <script src='script.js'></script>
+        <?php require_once('librerias.php')?>
     </head>
     <body>
       <div class="container">

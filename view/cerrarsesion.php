@@ -6,8 +6,7 @@
             <meta http-equiv='X-UA-Compatible' content='IE=edge'>
                 <title>Cerrar Sesión de Usuario</title>
                 <meta name='viewport' content='width=device-width, initial-scale=1'>
-                <link rel='stylesheet' type='text/css' media='screen' href='cerrarsesion.css'>
-                <script src='cerrarsesion.js'></script>
+                <?php require_once('librerias.php')?>
             </head>
             <body>
               <h2>Bienvenido, Usuario</h2>
